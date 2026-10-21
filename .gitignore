@@ -1,0 +1,9 @@
+# Never commit real exports. Only the synthetic file below is allowed.
+data/*
+!data/sandbox_accounts.csv
+*.xlsx
+*.xls
+raw/
+.blocklist.local
+__pycache__/
+.venv/
