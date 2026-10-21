@@ -27,7 +27,3 @@ streamlit run app.py
 
 Net revenue change per year = failures per month x average fee x 12 x (lift x (1 - discount) - baseline return x discount).
 Everyone who would have returned anyway also receives the discount, so the break-even lift is baseline x discount / (1 - discount). Lift is an assumption to be measured in an experiment, not a result.
-
-## Using this with real data
-
-Do not commit real exports. Keep them outside the repo, and only point the app at them locally with permission from the data owner.
